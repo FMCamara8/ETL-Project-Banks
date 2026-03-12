@@ -8,12 +8,9 @@ Le script suit trois étapes principales (ETL) :
 - Extraction : le code va chercher les données sur une page Wikipédia (archive) en utilisant le Web Scraping.
 
 - Transformation :
-
-  Nettoyage des données pour qu'elles soient exploitables par Python.
-
-  Conversion de la valeur boursière (USD) en GBP, EUR et INR grâce à un fichier de taux de change externe     (exchange_rate.csv).
-
-  Arrondi des chiffres à deux décimales.
+  - Nettoyage des données pour qu'elles soient exploitables par Python.
+  - Conversion de la valeur boursière (USD) en GBP, EUR et INR grâce à un fichier de taux de change externe     (exchange_rate.csv).
+  - Arrondi des chiffres à deux décimales.
 
 - Chargement :
     - Création d'un fichier de sortie au format CSV.
